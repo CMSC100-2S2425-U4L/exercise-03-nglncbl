@@ -6,7 +6,7 @@
 function validatePassword(pass1, pass2) {
     // Check if the two passwords match
     if (pass1 !== pass2) {
-        return false;
+        return false; 
     }
 
 
@@ -66,7 +66,6 @@ function storePassword(name, pass1, pass2) {
 
 }
 
-// https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
 
 
 // Sample test
